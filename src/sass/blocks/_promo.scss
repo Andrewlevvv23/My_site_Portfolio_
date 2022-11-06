@@ -1,0 +1,56 @@
+.promo {
+	min-height: 100vh;
+	position: relative;
+	background: url('../img/photo_BG.png') no-repeat 50%/cover;
+	padding-top: 250px;
+	color: #fff;
+	&_title {
+		width: 550px;
+		margin-top: 15px;
+		text-shadow: 1px 1px 1px rgb(61, 115, 119);
+	}
+	&_subtitle {
+		position: relative;
+		@include  before_circle;
+		padding-left: 6px;
+		font-weight: 100;
+		z-index: 2;
+		text-shadow: 1px 1px 1px rgb(61, 115, 119);
+	}
+	&_btns {
+		margin-top: 25px;
+		display: flex;
+		width: 250px;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&_link {
+		color: #fff;
+		font-weight: bold;
+		&:hover {
+			transform: scale(1.07);
+			text-decoration: none;
+			color: #fff;
+		}	
+	}
+
+}
+
+.uk_icon {
+	position: absolute;
+	display: inline-block;
+	margin: 6px 0 0 6px;
+	color: #fff;
+	z-index: 3;
+	img {
+		position: absolute;
+		display: inline-block;
+		height: 25px;
+	}
+	.uk_text {
+		margin-left: 33px;
+		font-size: 14px;
+		margin-top: 3px;
+	}
+
+}

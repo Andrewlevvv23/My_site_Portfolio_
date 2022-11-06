@@ -1,0 +1,36 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.divider_SM {
+    width: 70px;
+    height: 3px;
+    background-color: $main-color;
+    margin: 25px auto 0 auto;
+}
+
+@import 'blocks/_promo.scss';
+@import 'blocks/_title.scss';
+@import 'blocks/_buttons.scss';
+@import 'blocks/_sidepanel.scss';
+@import 'blocks/_menu.scss';
+@import 'blocks/_about.scss';
+@import 'blocks/_resume.scss';
+@import 'blocks/_skills.scss';
+@import 'blocks/_portfolio.scss';
+@import 'blocks/_price.scss';
+@import 'blocks/_contacts.scss';
+@import 'blocks/_modal.scss';
+@import 'blocks/_media.scss';
+

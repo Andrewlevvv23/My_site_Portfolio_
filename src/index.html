@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Andrew Levitsky</title>
+    <meta name="title" content="My portfolio">
+    <meta name="description" content="Here you can see my work and learn more about me">
+
+    <!-- Primary Meta Tags -->
+    <title>I am a web-developer from Kyiv</title>
+    <meta name="title" content="I am a web-developer from Kyiv">
+    <meta name="description" content="Here you can see my work and learn more about me">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://andrewlev.biz.ua/">
+    <meta property="og:title" content="I am a web-developer from Kyiv">
+    <meta property="og:description" content="Here you can see my work and learn more about me">
+    <meta property="og:image" content="img/image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://andrewlev.biz.ua/">
+    <meta property="twitter:title" content="I am a web-developer from Kyiv">
+    <meta property="twitter:description" content="Here you can see my work and learn more about me">
+    <meta property="twitter:image" content="img/image.png">
+
+    <!-- Favicon  -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon//apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon//favicon-16x16.png">
+    <link rel="manifest" href="icons/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="uk_icon">
+        <img src="icons/social/uk.png" alt="no">
+        <div class="uk_text">Glory to Ukraine!</div>
+    </div>
+
+    <div class="menu">
+        <div class="menu_block">
+            <div class="menu_close">
+                <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z" fill="white"/>
+                </svg>
+            </div>
+            <nav>
+                <ul class="menu_list">
+                    <li class="menu_link"><a href="#about" class="menu_link">ABOUT ME</a></li>
+                    <li class="menu_link"><a href="#resume" class="menu_link">MY EXPERIENCE</a></li>
+                    <li class="menu_link"><a href="#skills" class="menu_link">MY SKILLS</a></li>
+                    <li class="menu_link"><a href="#portfolio" class="menu_link">MY WORKS</a></li>
+                    <li class="menu_link"><a href="#price" class="menu_link">PRICE-LIST</a></li>
+                    <li class="menu_link"><a href="#contacts" class="menu_link">CONTACTS</a></li>
+                </ul>
+            </nav>
+            <div class="menu_social">
+                <a href="https://www.facebook.com/profile.php?id=100070301175668" target="_blank" class="sidepanel_link">
+                <svg width="22" height="22" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.6055 0L4.39453 0C1.97159 0 0 1.97159 0 4.39453L0 25.6055C0 28.0284 1.97159 30 4.39453 30L13.2422 30L13.2422 19.3945L9.72656 19.3945L9.72656 14.1211H13.2422V10.5469C13.2422 7.63893 15.6077 5.27344 18.5156 5.27344L23.8477 5.27344V10.5469H18.5156L18.5156 14.1211H23.8477L22.9687 19.3945H18.5156V30H25.6055C28.0284 30 30 28.0284 30 25.6055L30 4.39453C30 1.97159 28.0284 0 25.6055 0Z" fill="white"/>
+                </svg>
+
+                </a>
+                 <a href="https://www.instagram.com/andrew_levvv/" target="_blank" class="sidepanel_link">
+                <svg width="22" height="22" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M-9.01547e-07 9.375L-4.09794e-07 20.625C-1.83506e-07 25.8019 4.19812 30 9.375 30L20.625 30C25.8019 30 30 25.8019 30 20.625L30 9.375C30 4.19813 25.8019 7.79513e-07 20.625 1.0058e-06L9.375 1.49755e-06C4.19812 1.72384e-06 -1.12784e-06 4.19813 -9.01547e-07 9.375ZM20.625 2.8125C24.2437 2.8125 27.1875 5.75625 27.1875 9.375L27.1875 20.625C27.1875 24.2437 24.2437 27.1875 20.625 27.1875L9.375 27.1875C5.75625 27.1875 2.8125 24.2437 2.8125 20.625L2.8125 9.375C2.8125 5.75625 5.75625 2.8125 9.375 2.8125L20.625 2.8125Z" fill="white"/>
+                <path d="M7.5 15C7.5 19.1419 10.8581 22.5 15 22.5C19.1419 22.5 22.5 19.1419 22.5 15C22.5 10.8581 19.1419 7.5 15 7.5C10.8581 7.5 7.5 10.8581 7.5 15ZM19.6875 15C19.6875 17.5837 17.5837 19.6875 15 19.6875C12.4144 19.6875 10.3125 17.5838 10.3125 15C10.3125 12.4163 12.4144 10.3125 15 10.3125C17.5837 10.3125 19.6875 12.4162 19.6875 15Z" fill="white"/>
+                <path d="M7.93685 6.93715C7.93685 6.38521 7.48942 5.93777 6.93748 5.93777C6.38554 5.93777 5.93811 6.38521 5.93811 6.93715C5.93811 7.48909 6.38554 7.93652 6.93748 7.93652C7.48942 7.93652 7.93685 7.48909 7.93685 6.93715Z" fill="white"/>
+                </svg>
+                </a>
+                <a href="https://github.com/Andrewlevvv23" target="_blank" class="sidepanel_link">
+                <svg width="22" height="22" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 0C4.475 0 0 4.36167 0 9.74107C0 14.0457 2.865 17.6962 6.8375 18.9832C7.3375 19.0749 7.52083 18.7734 7.52083 18.5148C7.52083 18.2835 7.5125 17.6706 7.50833 16.8585C4.72667 17.4459 4.14 15.5517 4.14 15.5517C3.685 14.4274 3.0275 14.1267 3.0275 14.1267C2.12167 13.5228 3.0975 13.5352 3.0975 13.5352C4.10167 13.603 4.62917 14.5389 4.62917 14.5389C5.52083 16.0283 6.97 15.5979 7.54167 15.3493C7.63167 14.719 7.88917 14.2903 8.175 14.0466C5.95417 13.8029 3.62 12.9652 3.62 9.23304C3.62 8.16988 4.0075 7.30085 4.64917 6.61934C4.53667 6.37316 4.19917 5.3827 4.73667 4.04116C4.73667 4.04116 5.57417 3.78012 7.48667 5.03988C8.28667 4.82345 9.13667 4.71606 9.98667 4.7111C10.8367 4.71606 11.6867 4.82345 12.4867 5.03988C14.3867 3.78012 15.2242 4.04116 15.2242 4.04116C15.7617 5.3827 15.4242 6.37316 15.3242 6.61934C15.9617 7.30085 16.3492 8.16988 16.3492 9.23304C16.3492 12.9752 14.0117 13.7987 11.7867 14.0383C12.1367 14.3307 12.4617 14.928 12.4617 15.8408C12.4617 17.1444 12.4492 18.1918 12.4492 18.5082C12.4492 18.7635 12.6242 19.0683 13.1367 18.9708C17.1375 17.692 20 14.0391 20 9.74107C20 4.36167 15.5225 0 10 0Z" fill="white"/>
+                </svg>
+                </a>
+            </div>
+        </div>
+        <div class="menu_overlay"></div>
+    </div>
+
+    <aside class="sidepanel"> 
+        <a href="https://www.facebook.com/profile.php?id=100070301175668" target="_blank" class="sidepanel_link">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M-7.46167e-07 2.92969L-1.28061e-07 17.0703C-5.74539e-08 18.6856 1.31439 20 2.92969 20L17.0703 20C18.6856 20 20 18.6856 20 17.0703L20 11.1719L12.9297 11.1719L12.9297 13.5156L9.41406 13.5156L9.41406 11.1719L7.03125 11.1719C5.09262 11.1719 3.51562 9.59488 3.51562 7.65625L3.51562 4.10156L7.03125 4.10156L7.03125 7.65625L9.41406 7.65625L9.41406 4.10156L12.9297 4.6875L12.9297 7.65625L20 7.65625L20 2.92969C20 1.31439 18.6856 -8.16774e-07 17.0703 -7.46167e-07L2.92969 -1.28061e-07C1.31439 -5.74539e-08 -8.16774e-07 1.31439 -7.46167e-07 2.92969Z" fill="#fff"/>
+            </svg>
+        </a>
+        <a href="https://www.instagram.com/andrew_levvv/" target="_blank" class="sidepanel_link">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M-6.01032e-07 6.25L-2.73196e-07 13.75C-1.22337e-07 17.2012 2.79875 20 6.25 20L13.75 20C17.2013 20 20 17.2012 20 13.75L20 6.25C20 2.79875 17.2012 -7.51891e-07 13.75 -6.01032e-07L6.25 -2.73196e-07C2.79875 -1.22337e-07 -7.51891e-07 2.79875 -6.01032e-07 6.25ZM13.75 1.875C16.1625 1.875 18.125 3.8375 18.125 6.25L18.125 13.75C18.125 16.1625 16.1625 18.125 13.75 18.125L6.25 18.125C3.8375 18.125 1.875 16.1625 1.875 13.75L1.875 6.25C1.875 3.8375 3.8375 1.875 6.25 1.875L13.75 1.875Z" fill="#fff"/>
+                <path d="M5 10C5 12.7612 7.23875 15 10 15C12.7613 15 15 12.7612 15 10C15 7.23875 12.7612 5 10 5C7.23875 5 5 7.23875 5 10ZM13.125 10C13.125 11.7225 11.7225 13.125 10 13.125C8.27625 13.125 6.875 11.7225 6.875 10C6.875 8.2775 8.27625 6.875 10 6.875C11.7225 6.875 13.125 8.2775 13.125 10Z" fill="#fff"/>
+                <path d="M5.29123 4.625C5.29123 4.25704 4.99295 3.95875 4.62499 3.95875C4.25703 3.95875 3.95874 4.25704 3.95874 4.625C3.95874 4.99296 4.25703 5.29125 4.62499 5.29125C4.99295 5.29125 5.29123 4.99296 5.29123 4.625Z" fill="#fff"/>
+            </svg>
+        </a>
+        <a href="https://github.com/Andrewlevvv23" target="_blank" class="sidepanel_link">
+            <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M-4.37114e-07 9.99951C-1.95608e-07 15.5245 4.36167 19.9995 9.74107 19.9995C14.0457 19.9995 17.6962 17.1345 18.9832 13.162C19.0749 12.662 18.7734 12.4787 18.5148 12.4787C18.2835 12.4787 17.6706 12.487 16.8585 12.4912C17.4459 15.2728 15.5517 15.8595 15.5517 15.8595C14.4274 16.3145 14.1267 16.972 14.1267 16.972C13.5228 17.8778 13.5352 16.902 13.5352 16.902C13.603 15.8978 14.5389 15.3703 14.5389 15.3703C16.0283 14.4787 15.5979 13.0295 15.3493 12.4578C14.719 12.3678 14.2903 12.1103 14.0466 11.8245C13.8029 14.0453 12.9652 16.3795 9.23304 16.3795C8.16988 16.3795 7.30085 15.992 6.61933 15.3503C6.37316 15.4628 5.3827 15.8003 4.04116 15.2628C4.04116 15.2628 3.78012 14.4253 5.03988 12.5128C4.82345 11.7128 4.71606 10.8628 4.7111 10.0128C4.71606 9.16284 4.82345 8.31285 5.03988 7.51284C3.78012 5.61285 4.04116 4.77535 4.04116 4.77535C5.3827 4.23785 6.37316 4.57534 6.61933 4.67535C7.30085 4.03785 8.16988 3.65035 9.23304 3.65035C12.9752 3.65035 13.7987 5.98784 14.0383 8.21284C14.3307 7.86284 14.928 7.53784 15.8408 7.53784C17.1444 7.53784 18.1918 7.55034 18.5082 7.55034C18.7635 7.55034 19.0683 7.37534 18.9708 6.86284C17.692 2.86201 14.0391 -0.000488895 9.74107 -0.000488707C4.36167 -0.000488472 -6.7851e-07 4.47701 -4.37114e-07 9.99951Z" fill="#fff"/>
+            </svg>
+        </a>
+        <div class="sidepanel_divider"></div>
+        <div class="sidepanel_text">Social networks</div>
+    </aside>
+
+    <section class="promo">
+        <div class="hamburger">   
+            <span></span>
+            <span class="long"></span>
+            <span></span>
+        </div>
+        <div class="container">
+            <div class="title title_fz20 promo_subtitle">My  name is Andrew Levitsky</div>
+            <h1 class="title title_fz48 promo_title">I am a web-developer from Kyiv</h1>
+            <div class="promo_btns">
+                <a href="#portfolio" class="promo_link btns"> Portfolio </a>
+                <a href="#about" class="promo_link abt"> About me </a>
+            </div>
+        </div>
+    </section>
+    <div class="divider"></div>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about_wrapper">
+                <div class="about_photo">
+                    <img src="img/photo_2.1.jpg" alt="none">
+                </div>
+        
+                <div class="about_info">
+                    <h2 class="title_fz20 title about_title">About Me</h2>
+                    <div class="title_fz36 title about_subtitle">My name is Andrew</div>
+                    <div class="divider_SM"></div>
+                    <p class="about_text">
+                        Hello! I am an aspiring web developer of twenty-five years old, recently moved to live in Kyiv from the city of Yalta, Crimea. He is a construction engineer by education, graduated from college and academy in this specialty. Programming has always run in parallel as a hobby, over time I began to like it more than my specialty. As a result, I decided to try myself in a new interesting field. Over the past year, I have improved my knowledge of JS and React, made about ten small projects. Now, impatiently, ready to get a job! :)
+                    </p>
+                </div>
+                    <div class="about_skills">
+
+                        <div class="about_skills-item">
+                            <div class="about_skills-circle">
+                                <img src="icons/about_me/web_development.svg" alt="none">
+                            </div>
+                            <div>
+                                <div class="title title_fz14">Web development</div>
+                                <div class="about_skills-descr">Designing and developing a modern adaptive site, checking it on a debugger and publishing your work on the Internet</div>
+                            </div>
+                        </div>
+
+                        <div class="about_skills-item">
+                            <div class="about_skills-circle">
+                                <img src="icons/about_me/mobile_dev.svg" alt="none">
+                            </div>
+                            <div> 
+                                <div class="title title_fz14">Application Development</div>
+                                <div class="about_skills-descr">Creating an architecture that the user interacts with after authentication using frameworks and native code</div>
+                            </div> 
+                        </div>
+
+                        <div class="about_skills-item">
+                            <div class="about_skills-circle">
+                                <img src="icons/about_me/design.svg" alt="none">
+                            </div>
+                            <div>
+                                <div class="title title_fz14">UI/UX Design</div>
+                                <div class="about_skills-descr">Design and creation of user interfaces, detailed visualization and development of the application, making it convenient and functional</div>   
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </section> 
+
+    <section class="resume" id="resume">
+        <div class="container">
+            <h2 class="title title_fz16 resume_title">Experience</h2>
+            <div class="title title_fz36 resume_subtitle">How can I be useful</div>
+            <div class="divider_SM"></div>
+
+            <div class="resume_wrapper">
+                <div class="resume_column">
+                    <h3 class="title title_fz20 resume_column-title">Education</h3>
+                    <ul>
+                        <li>
+                            <div class="resume_item">
+                                <div class="resume_item-head">
+                                    <div class="resume_item-icon">
+                                        <img src="icons/experience/university.svg" alt="icon">
+                                    </div>
+                                    <h4 class="title title_fz14">'KNUCA' construction university</h4>
+                                    <div class="resume_item-location">Master's degree | Kyiv (2014-2019)</div>
+                                </div>
+                                <div class="resume_item-body">Graduated from the Kyiv National Construction University with a degree in civil engineering with honors, before that he graduated from a college in the city of Sevastopol.</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resume_item">
+                                <div class="resume_item-head">
+                                    <div class="resume_item-icon">
+                                        <img src="icons/experience/courses.svg" alt="icon">
+                                    </div>
+                                    <h4 class="title title_fz14 title_jobs">Udemy</h4>
+                                    <div class="resume_item-location">Graduate student | Kyiv (2021-2022)</div>
+                                </div>
+                                <div class="resume_item-body">For more than a year, I have been actively taking front-end courses on the Udemy educational platform. Teachers such as Ivan Petrichenko and Dr. Angela Yu. In total, I spent more than 600 hours on training and practice, this gave a tangible result.</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume_column">
+                    <h3 class="title title_fz20 resume_column-title">Work experience</h3>
+                    <ul>
+                        <li>
+                            <div class="resume_item">
+                                <div class="resume_item-head">
+                                    <div class="resume_item-icon">
+                                        <img src="icons/experience/developer.svg" alt="icon">
+                                    </div>
+                                    <h4 class="title title_fz14 title_jobs"> Front-End Developer</h4>
+                                    <div class="resume_item-location">Junior developer | Kyiv (2022...)</div>
+                                </div>
+                                <div class="resume_item-body">At this stage, I am at the beginning of my career in this field. I've done trial study projects and done small freelancing jobs.</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resume_item">
+                                <div class="resume_item-head">
+                                    <div class="resume_item-icon">
+                                        <img src="icons/experience/designer.svg" alt="icon">
+                                    </div>
+                                    <h4 class="title title_fz14 title_jobs">UI/UX Designer</h4>
+                                    <div class="resume_item-location">Junior developer | Kyiv (2022...)</div>
+                                </div>
+                                <div class="resume_item-body">At this stage, I am at the beginning of my career in this field. I've done trial study projects and done small freelancing jobs.</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="title title_fz16 resume_title">Skills</h2>
+            <div class="title title_fz36 resume_subtitle">What do I use at work?</div>
+            <div class="divider_SM"></div>
+            <div class="skills_wrapper">
+
+                <div class="skill_item">
+                    <div class="skill_icon">
+                        <img src="icons/skills/html5.svg" alt="none">
+                    </div>
+                    <div class="skill_title">HTML5</div>
+                    <div class="skill_text">It is he who creates the framework of your site or application, and the fifth version will allow me to create a more SEO-optimized structure of your product</div>
+                </div>
+
+                <div class="skill_item">
+                    <div class="skill_icon">
+                        <img src="icons/skills/css3.svg" alt="none">
+                    </div>
+                    <div class="skill_title">CSS3</div>
+                    <div class="skill_text">This style language allows me to create absolutely any look for your site or application. Everything is limited only by your imagination!</div>
+                </div>
+
+                <div class="skill_item">
+                    <div class="skill_icon">
+                        <img src="icons/skills/js.svg" alt="none">
+                    </div>
+                    <div class="skill_title">Java Script</div>
+                    <div class="skill_text">This programming language allows you to bring anything to life: sliders, windows, tooltips, tabs, receiving data from the server, and much more.</div>
+                </div>
+
+                <div class="skill_item">
+                    <div class="skill_icon">
+                        <img src="icons/skills/jquery.svg" alt="none">
+                    </div>
+                    <div class="skill_title">Jquery</div>
+                    <div class="skill_text">The Jquery library will speed up development. Without the need to integrate it into the project, we will not, but the skill of working with it is present</div>
+                </div>
+
+                <div class="skill_item">
+                    <div class="skill_icon">
+                        <img src="icons/skills/react.svg" alt="none">
+                    </div>
+                    <div class="skill_title">React</div>
+                    <div class="skill_text">This library allows you to create web applications. We can create the most interactive product for your purposes</div>
+                </div>
+
+                <div class="skill_item">
+                    <div class="skill_icon">
+                        <img src="icons/skills/node.js.svg" alt="none">
+                    </div>
+                    <div class="skill_title">Node.js</div>
+                    <div class="skill_text">This platform allows you to create a backend for your product - "brains" that will perform actions that the user does not see</div>
+                </div>
+
+                <div class="skill_item">
+                    <div class="skill_icon">
+                        <img src="icons/skills/Figma.svg" alt="none">
+                    </div>
+                    <div class="skill_title">Figma</div>
+                    <div class="skill_text">It is a graphical online collaborative editor. In it, you can create a website prototype, an application interface, and discuss edits with colleagues in real time.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="title title_fz16 resume_title">Portfolio</h2>
+            <div class="title title_fz36 resume_subtitle">My works</div>
+            <div class="divider_SM"></div>
+
+            <div class="portfolio_wrapper"> 
+                <a href="./Projects/uber" class="portfolio_item" target="_blank">
+                    <img src="img/works/project_4.png" alt="uber">
+                </a>
+                <a href="./Projects/fitnes/" class="portfolio_item" target="_blank">
+                    <img src="img/works/project_5.png" alt="fitnes">
+                </a>
+                <a href="./Projects/wordpress/" class="portfolio_item" target="_blank">
+                    <img src="img/works/project_1.png" alt="webinar">
+                </a>
+                <a href="./Projects/Movie/" class="portfolio_item" target="_blank">
+                    <img src="img/works/project_2.png" alt="movie">
+                </a>
+                <a href="./Projects/Food/" class="portfolio_item" target="_blank">
+                    <img src="img/works/project_3.png" alt="food">
+                </a>
+                <a href="#" class="portfolio_item" target="_blank">
+                    <img src="img/works/project_6.png" alt="test">
+                </a>
+            </div>
+
+        </div>
+    </section>
+     
+    <section class="price" id="price">
+        <div class="container">
+            <h2 class="title title_fz16 resume_title">Price-list</h2>
+            <div class="divider_SM"></div>
+    
+            <div class="price__wrapper">
+                <div class="price__item">
+                    <div class="price__type">Landing-page</div>
+                    <div class="price__count">contract price</div>
+                    <div class="price__descr">
+                        One-page site for the presentation of services/products/...
+                    </div>
+                </div>
+                <div class="price__item">
+                    <div class="price__type">Web-application</div>
+                    <div class="price__count">contract price</div>
+                    <div class="price__descr">
+                        Application inside the browser for better comfort
+                    </div>
+                </div>
+                <div class="price__item">
+                    <div class="price__type">Corporate website</div>
+                    <div class="price__count">contract price</div>
+                    <div class="price__descr">
+                        Website for your business or company
+                    </div>
+                </div>
+                <div class="price__item">
+                    <div class="price__type">Android/IOS application</div>
+                    <div class="price__count">contract price</div>
+                    <div class="price__descr">
+                        Application for smartphone of any OS
+                    </div>
+                </div>
+                <div class="price__item">
+                    <div class="price__type">Online store</div>
+                    <div class="price__count">contract price</div>
+                    <div class="price__descr">
+                        A tool for your online sales
+                    </div>
+                </div>
+                <div class="price__item">
+                    <div class="price__type">Design</div>
+                    <div class="price__count">individually</div>
+                    <div class="price__descr">
+                        I will create a design for your website/application...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+  
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts_wrapper">
+                 <div class="contacts_photo">
+                    <img src="img/photo_5.jpg" alt="none">
+                </div>
+                <div class="contacts_descr">
+                    <h2 class="title_fz20 title contacts_title">Contacts</h2>
+                    <div class="title_fz36 title contacts_subtitle">Get into contact with me</div>
+                    <div class="divider_SM"></div>
+                    <div class="title_fz14 title contacts_text">
+                        In any way convenient for you:
+                    </div>
+
+                    <div class="contacts_links">
+                        <div class="contacts_link">
+                            <a href="https://www.facebook.com/profile.php?id=100070301175668" target="_blank" class="contacts_link">
+                                <img src="icons/contacts/Facebook.svg" alt="fb"></a>
+                        </div>
+                        <div class="contacts_link">
+                            <a href="https://t.me/andrew_levvv" target="_blank" class="contacts_link">
+                                <img src="icons/contacts/Telegram.svg" alt="tg"></a>
+                        </div>
+                        <div class="contacts_link">
+                            <a href="https://www.instagram.com/andrew_levvv/" target="_blank" class="contacts_link">
+                                <img src="icons/contacts/Instagram.svg" alt="inst"></a>
+                        </div>
+                        <div class="contacts_link">
+                            <a href="https://www.linkedin.com/in/andrew-levitsky-413848251/" target="_blank" class="contacts_link">
+                                <img src="icons/contacts/linkedin.svg" alt="in"></a>
+                        </div>
+                    </div>
+
+                    <div class="title_fz14 title contacts_text">
+                        Or leave your details and I will write to you:
+                    </div>
+
+                    <form action='#' data-modal="form" class="contacts_form">
+                        <div class="contacts_input">
+                            <input required name="name" id="name" type="text">
+                            <label for="name">Your name</label>
+                        </div>
+                        <div class="contacts_input">
+                            <input required name="email" id="email" type="email">
+                            <label for="email">Your mail</label>
+                        </div>
+                        <div class="contacts_textarea">
+                            <textarea name="text" id="text"></textarea>
+                            <label for="text">Your message</label>
+                        </div>
+
+                        <div class="contacts_triggers">
+                            <button data-modal="consultation" class="contacts_btn btns"> Send a message </button>
+                            <div class="contacts_policy">
+                                <input required type="checkbox">
+                                <span>I agree with the <a href="/policy.html">privacy policy</a></span>
+                            </div>
+                        </div>    
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="overlay">
+        <div class="modal" id="thanks">
+            <div class="modal_close">&times;</div>
+            <div class="modal_subtitle">Thank you for your application!</div>
+            <div class="modal_descr">I will contact you shortly:)</div>
+        </div>
+    </div>  
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+

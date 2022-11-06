@@ -1,0 +1,33 @@
+.skills {
+	padding-top: 120px;
+	&_wrapper {
+		position: relative;
+		padding: 60px 10px 0 12px;
+		display: grid;
+		grid-template-columns: repeat(4, 270px);
+		grid-template-rows: repeat(2, 270px);
+		gap: 13px;
+	}	
+	.skill_item {
+		display: grid;
+		grid-template-rows: 65px 60px 70px;
+		box-sizing: border-box;
+		width: 270px;
+		height: 270px;
+		border: 1px solid #000000;
+		padding: 30px 30px 30px 25px;
+		.skill_title {
+			margin-top: 20px;
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 21px;
+		}
+		.skill_text {
+			font-weight: 300;
+			font-size: 12px;
+			line-height: 18px;
+		}
+	}
+
+	
+}

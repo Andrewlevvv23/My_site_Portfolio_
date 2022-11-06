@@ -1,0 +1,48 @@
+	.overlay {
+		display: none;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		background-color: rgba($color: #000000, $alpha: 0.76);
+		&.active {
+			display: block;
+		}
+	}
+	
+	.modal {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 300px;
+		min-height: 70px;
+		background-color: #F2F2F2;
+		padding: 38px 40px 40px 40px;
+		&_close {
+			position: absolute;
+			top: -12px;
+			right: -40px;
+			font-size: 40px;
+			line-height: 40px;
+			color:  #ede5e5;
+			cursor: pointer;
+			&:hover {
+				font-weight: 900;
+			}
+		}
+		&_subtitle {
+			font-size: 20px;
+			line-height: 20px;
+			font-weight: 700;
+			text-align: center;	
+		}	
+		&_descr {
+			margin-top: 10px;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 14px;
+			text-align: center;	
+		}	
+	}
+
